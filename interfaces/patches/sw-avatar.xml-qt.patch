@@ -1,0 +1,11 @@
+--- interfaces.orig/sw-avatar.xml	2010-10-19 14:45:51.948463228 +0000
++++ interfaces/sw-avatar.xml	2010-10-19 15:27:12.289463213 +0000
+@@ -26,7 +26,7 @@
+           </doc:para>
+         </doc:description>
+       </doc:doc>
+-      <arg name="path" type="s">
++      <arg name="path" type="s" direction="out">
+         <doc:doc>
+           <doc:summary>The local filename of the downloaded avatar image.</doc:summary>
+         </doc:doc>

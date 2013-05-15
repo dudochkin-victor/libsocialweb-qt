@@ -1,0 +1,2 @@
+- Fix bugs ;)
+- If a service returns false from swserviceconfig::init(), we need to prevent usage of that service! FEX: Don't install smugmug API key, but install smugmug support, meego-ux-settings-socialweb will still display the SmugMug service, even though the SmugMug SwServiceConfig::init() returns false

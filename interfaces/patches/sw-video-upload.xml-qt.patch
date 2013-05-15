@@ -1,0 +1,10 @@
+--- interfaces.orig/sw-video-upload.xml	2010-10-19 14:45:51.952463228 +0000
++++ interfaces/sw-video-upload.xml	2010-10-19 15:26:34.370463227 +0000
+@@ -10,6 +10,7 @@
+     </doc:doc>
+ 
+     <method name="UploadVideo" tp:name-for-bindings="Upload_Video">
++    <annotation name="com.trolltech.QtDBus.QtTypeName.In1" value="SwParams"/>
+       <doc:doc>
+         <doc:description>
+           <doc:para>

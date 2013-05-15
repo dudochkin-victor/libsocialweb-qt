@@ -1,0 +1,11 @@
+--- interfaces.orig/sw-core.xml	2010-10-19 14:45:51.949463228 +0000
++++ interfaces/sw-core.xml	2010-10-19 15:26:34.314463501 +0000
+@@ -23,7 +23,7 @@
+     </method>
+ 
+     <signal name="OnlineChanged"  tp:name-for-bindings="Online_Changed">
+-      <arg name="online" type="b"/>
++      <arg name="online" type="b" direction="out"/>
+     </signal>
+ 
+   </interface>

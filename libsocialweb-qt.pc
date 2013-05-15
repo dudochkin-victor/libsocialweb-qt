@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libsocialweb
+
+Name: libsocialweb-qt
+Description: Qt Client side library for libsocialweb
+Version: 0.1.11
+Libs: -L${libdir} -lsocialweb-qt
+Cflags: -I${includedir}
+Requires: QtDBus glib-2.0 libsocialweb-keystore rest-0.7 rest-extras-0.7 gnome-keyring-1
+
+

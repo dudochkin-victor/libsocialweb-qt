@@ -1,0 +1,11 @@
+--- interfaces.orig/sw-banishable.xml	2010-10-19 14:45:51.948463228 +0000
++++ interfaces/sw-banishable.xml	2010-10-19 15:30:20.860463227 +0000
+@@ -36,7 +36,7 @@
+           </doc:para>
+         </doc:description>
+       </doc:doc>
+-      <arg name="uid" type="s">
++      <arg name="uid" type="s" direction="out">
+         <doc:doc>
+           <doc:summary>The uid of the item that has been banned.</doc:summary>
+         </doc:doc>
